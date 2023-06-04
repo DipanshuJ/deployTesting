@@ -15,6 +15,11 @@ app.get("/", (req,res)=>{
     res.send("hello world")
 })
 
+app.get("/find", (req, res)=> {
+    res.json({
+        success: true
+    })
+})
 
 
 
