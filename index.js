@@ -17,7 +17,8 @@ app.get("/", (req,res)=>{
 
 app.get("/find", (req, res)=> {
     res.json({
-        success: true
+        success: true,
+        port: process.env.PORT
     })
 })
 
